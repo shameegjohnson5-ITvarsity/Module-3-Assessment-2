@@ -1,0 +1,197 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*=========================Body*==========================*/
+
+.body-home{
+    background-image: url(Images/pizza.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+}
+
+.contact{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+.contact li{
+    list-style:none;
+    text-shadow: 2px 2px 3px black;
+    
+}
+
+.contact h2{
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.contact ul{
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 30px;
+    
+}
+
+.hours{
+    text-decoration: underline;
+}
+
+h2 {
+   text-decoration: underline;
+}
+
+#operational-hours-table {
+    border-collapse: collapse;
+    text-align: center;
+    width:80%;
+    margin:auto;
+}
+
+#operational-hours-table td {
+    border: 2px solid white;
+    text-shadow: 2px 2px 3px black;
+    padding:10px;
+    background-color: #860111;
+    width:50%;
+}
+
+
+
+/*=========================Header*==========================*/
+.header a{
+    color:white;
+}
+
+.right {
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.right:hover{
+    transform: scale(1.01);
+    color:gold;
+    transition: all 0.5s ease;
+}
+
+.left {
+    padding-top: 5px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.left:hover{
+    transform: scale(1.01);
+    color:gold;
+    transition: all 0.5s ease;
+}
+
+.header{
+    background-color: #860111 ;
+    display: flex;
+    height:50px;
+    
+    
+    
+}
+
+.header h4{
+    margin:auto;
+    color:white;
+    padding-left: 35px;
+    font-size: 25px;
+    font-weight:800;
+    text-shadow: 2px 2px 4px black;
+}
+
+/*==========Responsive Layout=========*/
+@media all and (min-width: 320px) and (max-width: 420px) and (orientation: portrait) {
+    
+      .detailed-container {
+        width:90%;
+        margin-top: 50px;
+    } 
+    
+    .header a{
+        font-size:18px;
+        padding-top: 13px;
+    }
+    
+    .header h4{
+        font-size:18px;
+        padding-right:10px;
+    }
+    
+    .header{
+        padding-right:8px;
+    }
+    
+    .right{
+        padding-right:12px;
+        
+    }
+
+    #operational-hours-table {
+        font-size: 14px;
+    }
+    
+    .contact h2{
+        font-size:20px;
+    }
+    
+    .contact li{
+        font-size:20px;
+    }
+}
+
+@media all and (min-width: 421px) and (max-width: 750px) and (orientation: portrait) {
+    
+     .detailed-container {
+        width:90%;
+        margin-top: 50px;
+    } 
+    
+    .header a{
+        font-size:18px;
+        padding-top: 13px;
+    }
+    
+    .header h4{
+        font-size:18px;
+        padding-right:10px;
+    }
+    
+    .header{
+        padding-right:8px;
+    }
+    
+    .right{
+        padding-right:12px;
+        
+    }
+    
+    #operational-hours-table {
+        font-size: 17px;
+        background-color: aqua;
+    }
+    
+    .contact h2{
+        font-size:22px;
+    }
+    
+    .contact li{
+        font-size:22px;
+    }
+ 
+}
+
