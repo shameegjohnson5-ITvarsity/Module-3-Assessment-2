@@ -278,7 +278,7 @@
         width:200px;
         height:200px;
         border: solid 10px #080808;
-        top:150px;
+        top:80px;
     }
     
     .logo h1{
@@ -286,7 +286,7 @@
     }
     
     .menu{
-        top:200px;
+        top:120px;
     }
     
     .burger-name1{
@@ -313,7 +313,7 @@
         width:200px;
         height:200px;
         border: solid 10px #080808;
-        top:120px;
+        top:80px;
     }
     
     .logo h1{
@@ -321,7 +321,7 @@
     }
     
      .menu{
-        top:200px;
+        top:120px;
     }
     
      .order-received{
