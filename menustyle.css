@@ -8,7 +8,7 @@
 /*=========================Body*==========================*/
 
 .detailed-menu{
-    background-image: url(Images/pizza.jpg);
+    background-image: url("images/pizza.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
